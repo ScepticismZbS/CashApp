@@ -5,8 +5,7 @@ import './App.css'
 function App() {
 
   const dispatch = useDispatch()
-  const cash = useSelector(state => state.cash)
-  console.log(cash)
+  const cash = useSelector(state => state.cash.cash)
 
   const addCash = (cash) => {
     dispatch({type: 'ADD_CASH', payload: cash})
