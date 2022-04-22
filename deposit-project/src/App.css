@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100vw;
+
+}
+
+.App {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 2px solid teal;
+    background: teal;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
