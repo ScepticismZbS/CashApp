@@ -9,14 +9,22 @@
 }
 
 .App {
-    margin-top: 200px;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.balance {
+    font-size: 3rem;
+}
+
+.btns {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
 button {
+    margin: 10px 5px;
     cursor: pointer;
     padding: 10px 15px;
     border: 2px solid teal;
@@ -26,4 +34,11 @@ button {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.customers {
+    font-size: 2rem;
+    border: 1px solid #cecece;
+    padding: 5px;
+    margin-top: 5px;
 }
